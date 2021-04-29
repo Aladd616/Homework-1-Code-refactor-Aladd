@@ -6,51 +6,45 @@
 
 body {
     background-color: #d9dcd6;
-}
+} /*sets the color of the background of the main body of the web page*/
 
 .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    padding: 20px;/*sets the size, in pixels, of the empty space in the header section*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/*Sets the font within the header */
+    background-color: #2a607c;/*sets the color of the padding in the header*/
+    color: #ffffff;/*sets the color fo the text in the header*/
 }
 
 .header h1 {
-    display: inline-block;
-    font-size: 48px;
+    display: inline-block;/*sets the text within the headin 1 section of the header to display in one line within the header */
+    font-size: 48px;/*sets the size of the text in the heading 1 section witin the header */
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6;/*sets text color for hte letters 'seo' within the header */
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
+}/*sets the style parameters for the text of the site link buttons with in the header*/
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
-}
+}/*sets the type of marks, bullet points, for the list within the header*/
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
+}/*sets the positioning of the items within th elist within the header as well as where that list is positioned*/
 
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-
-
-p {
-    font-size: 16px;
-}
+}/*text style parameters for the links within the header */
 
 
 
@@ -74,6 +68,10 @@ p {
     float: right;
     margin-left: 25px;
 }
+
+p {
+    font-size: 16px;
+}/*font size for the p selector*/
 
 .content {
     width: 75%;
